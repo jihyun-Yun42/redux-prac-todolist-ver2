@@ -52,6 +52,7 @@ export const StyledButton = styled.button`
   border-radius: 10px;
   border: transparent;
   padding: 3px 10px;
+  cursor: pointer;
 `;
 
 const StyledInput = styled.input`
