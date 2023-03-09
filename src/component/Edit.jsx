@@ -10,8 +10,6 @@ function Edit({ item }) {
 
   const dispatch = useDispatch();
 
-  const todo = useSelector((state) => state.todo);
-
   return (
     <div>
       {item.edit ? (
